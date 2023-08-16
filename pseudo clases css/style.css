@@ -1,0 +1,28 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*pseudoclases : define estilo de un estado especial de un elemento*/
+.main-nav__item a:hover{ /*pseudoclase hover: es que realmente el mouse este arriba del elemento, es un afecto, un estado*/
+    color: blue;
+}
+.main-nav__item a:active{ 
+    color: red;
+}
+
+/*pseudo elementos: define el estilo de una parte especifica de un elemento... se manda a llamar con 4 puntos ::*/
+.main-nav__item a::after{
+    content: " | ";
+}

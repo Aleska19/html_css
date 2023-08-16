@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellowgreen;
+}
+
+.Padre{
+    width: 60vh;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 400px;
+    /* margin: 0 auto; */
+    background-color: rgb(168, 245, 168);
+    display: block;
+    /* margin-top: 100px; */
+    border-radius: 50px;
+    /* border: solid; */
+    position: absolute;
+    top: 20vh;
+    left: 30%;
+    padding: 20px;
+}
+
+.Padre img{
+    width: 70%;
+    max-width: 170px;
+    /*height: 60%;*/
+    margin: auto;
+    display: block;
+}
+
+.Baby-title{
+    border-radius: 50px;
+    text-align: center;
+    background-color: green;
+    width: 65%;
+    height: 50px;
+    padding: 3px;
+    font-size: 2rem;
+    color: wheat;
+    position: absolute;
+    top: -6%;
+    left: 16%;
+    /* display: block;*/
+   
+}
+
+.Baby-information{
+    text-align: center;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+/*.Baby-information img{
+    width: 60%;
+    height: 60%;
+    margin: 10px auto;
+}*/
+

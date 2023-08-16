@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DDF1FF
+}
+
+.Barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #003c4e;
+    height: 60px;
+}
+
+.Logo img{
+    width: 180px;
+    height: 160px;
+    margin: 30px;
+}
+
+.Navegacion-enlaces{
+    padding: 15px;
+    /*font-size: 20px;*/
+    font-size: 1.50rem;
+    font-family: monospace;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.Padre-navegacion-enlaces a:hover{
+    color: aqua;
+}
+
+.Padre-navegacion-enlaces a:active{
+    color: rgb(177, 182, 246)
+}
+
+.aside{
+    height: 100%;
+    /* background-color: coral; */
+    display: inline-block;
+    background: #5e9b9f;
+    width: 25%;
+    margin: 0;
+    /* position: absolute; */
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Favorite{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(4, minmax(120px, 160px));
+    justify-content: center;
+}
+
+.Favorite-tv{
+    
+}
+
+.Favorite-tv img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+aside, section{
+    display: inline-block;
+}
+
+/*section movie*/
+
+.section-pelicula-serie{
+    display: inline-block;
+    position: absolute;
+    margin: 30px;
+}
+
+.title-section{
+    margin: 10px;
+    color: #003c4e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.Peliculas-all{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 350px));
+    gap: 20px;
+    /* justify-content: inherit; */
+    place-content: center;
+    margin: 20px;
+}
+
+.Peliculas-item{
+    place-items: center;
+}
+
+.Peliculas-item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*section series*/
+
+.title-serie{
+    margin: 10px;
+    color: #003c4e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Series-all{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 350px));
+    gap: 20px;
+    /* justify-content: inherit; */
+    place-content: center;
+    margin: 20px;
+}
+
+.Series-item img{
+    width: 100%;
+    height: 100%;
+}
